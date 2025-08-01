@@ -1,0 +1,17 @@
+# ignore all root items
+/*.*
+
+# unignore folders (the / is optional - I just think it looks nice)
+!Data Sources/*
+!Functions/*
+!Utils/*
+
+# unignore files
+!.gitignore
+!Readme.md
+!pyproject.toml
+!main.py
+
+
+# recursively re-ignore
+__pycache__
